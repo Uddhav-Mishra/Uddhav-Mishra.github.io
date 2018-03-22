@@ -64,8 +64,8 @@
           <li class="hidden"> <a href="#page-top"></a> </li>
           <li> <a class="page-scroll" href="#about">About</a> </li>
           <li> <a class="page-scroll" href="#skills">Skills</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">Projects</a> </li>
           <li> <a class="page-scroll" href="#resume">Experience</a> </li>
+          <li> <a class="page-scroll" href="#portfolio">Projects</a> </li>
           <li> <a class="page-scroll" href="#contact">Contact</a> </li>
         </ul>
       </div>
@@ -83,17 +83,18 @@
       <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
       <div class="col-md-8 col-md-offset-2">
         <div class="about-text">
-          <p>I am Uddhav Mishra undergraudate 4th year computer science studentfrom Birla Institute of Technology & Science, Pilani - Hyderabad India.I like solving complex computer science problems.
-	  I love to compete in online programming contests and work on interesting projects.</p>
+          <p>I am Uddhav Mishra undergraudate 4th year computer science student from Birla Institute of Technology & Science, Pilani - Hyderabad India. I like solving challenging computer science problems.
+	        I love to compete in online programming contests and work on interesting projects.</p>
           <p class="text-center">
 	  <form method="get" action="docs/resume.pdf">
-		  <button class="btn btn-primary"><i class="fa fa-download"></i>Download Resume</button>
+		  <button class="btn btn-primary" align="center"><i class="fa fa-download"></i>Download Resume</button>
 	  </form>
 	</div>
       </div>
     </div>
   </div>
 </div>
+
 <!-- Skills Section -->
 <div id="skills" class="text-center">
   <div class="container">
@@ -103,14 +104,14 @@
     </div>
     <div class="row">
 	    <div class="col-md-4 col-sm-6 skill"> 
-	      <h4>C,C++,JAVA</h4>
+	      <h4>C , C++ , Java , Python</h4>
 
       </div>
       <div class="col-md-4 col-sm-6 skill">
-        <h4>HTML,CSS,JAVASCRIPT,AngularJS</h4>
+        <h4>HTML , CSS , Javascript , AngularJS</h4>
       </div>
       <div class="col-md-4 col-sm-6 skill"> 
-        <h4>.NET(Web Forms),Spring,Google Protocol Buffers</h4>
+        <h4>.NET(Web Forms) , Spring , Git , REST Api's , Google Protocol Buffers</h4>
       </div>
     </div>
   </div>
@@ -259,9 +260,10 @@
         <li>
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web Design</a></li>
-            <li><a href="#" data-filter=".app">App Development</a></li>
-            <li><a href="#" data-filter=".branding">Branding</a></li>
+			<li><a href="#" data-filter=".branding">Algorithms</a></li>
+            <li><a href="#" data-filter=".app">Applications</a></li>
+			<li><a href="#" data-filter=".web">Web Design</a></li>
+
           </ol>
         </li>
       </ul>
@@ -269,21 +271,49 @@
     </div>
     <div class="row">
       <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
+        <div class="col-sm-6 col-md-3 col-lg-3 branding">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/01-small.jpg" title="A text based search engine that returns documents based on query using boolean retrieval and tf-idf retrieval techniques . For details :
-https://github.com/Uddhav-Mishra/InformationRetrieval/tree/master/Search%20Engine%20Implementation
-            	" rel="prettyPhoto">
+https://github.com/Uddhav-Mishra/InformationRetrieval/tree/master/Search%20Engine%20Implementation"
+               rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Text Based Search Engine</h4>
                 <small>Information Retrieval</small> </div>
               <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
+		
+<!--  all classes web branding app -->
+
+        <div class="col-sm-6 col-md-3 col-lg-3 branding">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/03-small.jpg" title="Studied and implemented techniques to integrate homogeneous databases(relational) and also for heterogeneous databases (relational and xml) 
+            Project Link: https://github.com/Uddhav-Mishra/Integrating-Relational-Databases" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Integrating Databases</h4>
+                <small> Databases </small> </div>
+              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6 col-md-3 col-lg-3 branding">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/04-small.jpg" title="Implemented Association rule mining on corpus available online to retrieve a set of rules based on data. 
+            Project Link: https://github.com/Uddhav-Mishra/Data-Mining" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Association Rule Mining</h4>
+                <small>Data Mining</small> </div>
+              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+
+
+
         <div class="col-sm-6 col-md-3 col-lg-3 app">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="A python based Music Player Script that searches for given song/movie in directories provided and play those if found else play a relevant file on youtube 
-            	Github Link:https://github.com/Uddhav-Mishra/Music-Player-Python" rel="prettyPhoto">
+              Github Link:https://github.com/Uddhav-Mishra/Music-Player-Python" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Music Player</h4>
                 <small>Desktop Application for Windows</small> </div>
@@ -291,15 +321,19 @@ https://github.com/Uddhav-Mishra/InformationRetrieval/tree/master/Search%20Engin
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
+
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/05-small.jpg" title="A calculator with basic arithmetic operations such as addition,multiplation,etc and also checking primality,modulo etc.
+            Further, it evaluates the expression even when the expression is not syntactically correct.
+            Project Link: https://github.com/Uddhav-Mishra/Calculator" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development, Branding</small> </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                <h4>Smart Calculator</h4>
+                <small>Basic Java</small> </div>
+              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>
@@ -369,14 +403,25 @@ https://github.com/Uddhav-Mishra/InformationRetrieval/tree/master/Search%20Engin
           <li><a href="https://www.facebook.com/uddhav.mishra.50"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://www.linkedin.com/in/uddhav-mishra-032bb0106/"><i class="fa fa-linkedin"></i></a></li>
           <li><a href="https://github.com/Uddhav-Mishra"><i class="fa fa-github"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://twitter.com/uddhav_mishra"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/uddhavmishra/"><i class="fa fa-instagram"></i></a></li>
         </ul>
       </div>
     </div>
   </div>
 </div>
 
+<div align="center">
+<!-- hitwebcounter Code START -->
+<a href="http://www.hitwebcounter.com" target="_blank">
+<img src="http://hitwebcounter.com/counter/counter.php?page=6918833&style=0036&nbdigits=5&type=page&initCount=0" title="Home Remedies For Wrinkles" Alt="Home Remedies For Wrinkles"   border="0" >
+</a>                                        <br/>
+                                        <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="" 
+                                        target="_blank" style="font-family: ; 
+                                        font-size: px; color: #; text-decoration:  ;"><br/>                                      </>
+                                        </a>   
+                                
+</div>
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
